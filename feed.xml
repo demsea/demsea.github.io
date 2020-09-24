@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Around the globe</title>
+    <link href="https://demsea.github.io/feed.xml" rel="self" />
+    <link href="https://demsea.github.io" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
+    <author>
+        <name>Maryna Demchenko</name>
+    </author>
+    <id>https://demsea.github.io</id>
+
+    <entry>
+        <title>Norway</title>
+        <author>
+            <name>Maryna Demchenko</name>
+        </author>
+        <link href="https://demsea.github.io/norway.html"/>
+        <id>https://demsea.github.io/norway.html</id>
+
+        <updated>2020-09-24T21:14:38+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc leo, hendrerit eu volutpat vitae, mollis et dolor. Aliquam faucibus vestibulum laoreet. Ut sem lectus, laoreet a quam non, porttitor iaculis nunc. Morbi consectetur leo at ante imperdiet, eu gravida lacus consequat. Curabitur congue turpis&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div id="lipsum">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc leo, hendrerit eu volutpat vitae, mollis et dolor. Aliquam faucibus vestibulum laoreet. Ut sem lectus, laoreet a quam non, porttitor iaculis nunc. Morbi consectetur leo at ante imperdiet, eu gravida lacus consequat. Curabitur congue turpis sem, et dapibus orci efficitur vel. Nullam mi diam, bibendum sed faucibus at, volutpat in turpis. Mauris ac fermentum sapien. Quisque porttitor velit ut mauris rhoncus consequat id ac libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales nisi dolor.</p>
+<p>Curabitur nec nibh nisl. Maecenas tellus risus, tincidunt nec rutrum id, semper et felis. Donec non turpis mattis, consequat mauris sed, viverra sapien. Phasellus quis leo sagittis, ultrices nibh tempus, interdum arcu. Quisque quis varius nunc. Nulla consectetur ipsum eget rhoncus iaculis. Ut vitae lorem posuere, fringilla magna sit amet, faucibus lectus. Maecenas sed urna id mi cursus congue. Aenean in gravida nunc. Nam sodales neque felis, hendrerit fringilla est malesuada nec. Vivamus viverra nibh quis metus ultricies interdum. Praesent accumsan metus eu nunc iaculis fringilla. Nulla cursus massa vel elit fermentum faucibus. Aliquam interdum ac augue vitae vulputate. Sed ac felis a urna venenatis posuere. Quisque aliquam efficitur auctor.</p>
+<p>Aenean sed leo metus. In hac habitasse platea dictumst. Donec posuere in sapien eget laoreet. Aenean suscipit ex sed odio finibus ultricies. Phasellus finibus sem et ante convallis tempus. Vestibulum condimentum purus eget arcu dictum, at hendrerit metus ultricies. In hac habitasse platea dictumst. Nunc auctor dui et commodo rutrum. Aliquam erat volutpat. Ut sagittis in erat vitae mollis. Quisque pharetra, lorem vel venenatis consequat, lectus erat auctor eros, et venenatis diam ante id dui. Suspendisse potenti. Praesent dignissim velit nec quam rhoncus, in suscipit ipsum feugiat.</p>
+<p>Phasellus vitae dapibus diam. Nulla eleifend pretium condimentum. Cras vitae interdum urna. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum non lectus quis semper. Nunc non sapien id orci rutrum malesuada. Sed finibus odio sed justo fermentum, sed pellentesque lectus ornare. In tempus blandit nibh, rhoncus consequat tortor iaculis eget. Vestibulum mattis quam maximus, mattis metus non, finibus lacus. Mauris ut accumsan erat. Sed tempus est ut nunc placerat hendrerit. Nam dapibus ut nulla ut vehicula. Curabitur eu purus fermentum, iaculis libero ut, luctus ipsum. Nam sollicitudin mauris sed odio faucibus, et consequat turpis ultricies. Sed eget magna lorem.</p>
+<p>Etiam dolor neque, faucibus sed nibh at, sodales scelerisque lacus. Vestibulum finibus cursus dolor id sagittis. Nunc bibendum felis nisi, ac tristique dui accumsan vitae. Vestibulum pretium sed turpis eu viverra. Mauris lobortis nec mauris vel ultricies. Donec porta venenatis tortor vel eleifend. Morbi condimentum consequat augue eu placerat. Vivamus et ex ligula. Praesent sodales mi erat, id semper risus viverra a. Cras et scelerisque magna, tempus vulputate lectus. Quisque venenatis augue a massa molestie, et hendrerit nibh auctor.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Where else</title>
+        <author>
+            <name>Maryna Demchenko</name>
+        </author>
+        <link href="https://demsea.github.io/where-else.html"/>
+        <id>https://demsea.github.io/where-else.html</id>
+
+        <updated>2020-09-24T21:14:38+02:00</updated>
+            <summary>
+                <![CDATA[
+                    NorwayIcelandFaroe islandTenerife
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <ol>
+<li><a href="https://demsea.github.io/norway.html" title="read more about Norway">Norway</a></li>
+<li>Iceland</li>
+<li>Faroe island</li>
+<li>Tenerife</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>About us</title>
+        <author>
+            <name>Maryna Demchenko</name>
+        </author>
+        <link href="https://demsea.github.io/about-us.html"/>
+        <id>https://demsea.github.io/about-us.html</id>
+
+        <updated>2020-09-24T21:14:38+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc leo, hendrerit eu volutpat vitae, mollis et dolor. Aliquam faucibus vestibulum laoreet. Ut sem lectus, laoreet a quam non, porttitor iaculis nunc. Morbi consectetur leo at ante imperdiet, eu gravida lacus consequat. Curabitur congue turpis&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div id="lipsum">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc leo, hendrerit eu volutpat vitae, mollis et dolor. Aliquam faucibus vestibulum laoreet. Ut sem lectus, laoreet a quam non, porttitor iaculis nunc. Morbi consectetur leo at ante imperdiet, eu gravida lacus consequat. Curabitur congue turpis sem, et dapibus orci efficitur vel. Nullam mi diam, bibendum sed faucibus at, volutpat in turpis. Mauris ac fermentum sapien. Quisque porttitor velit ut mauris rhoncus consequat id ac libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales nisi dolor.</p>
+<p>Curabitur nec nibh nisl. Maecenas tellus risus, tincidunt nec rutrum id, semper et felis. Donec non turpis mattis, consequat mauris sed, viverra sapien. Phasellus quis leo sagittis, ultrices nibh tempus, interdum arcu. Quisque quis varius nunc. Nulla consectetur ipsum eget rhoncus iaculis. Ut vitae lorem posuere, fringilla magna sit amet, faucibus lectus. Maecenas sed urna id mi cursus congue. Aenean in gravida nunc. Nam sodales neque felis, hendrerit fringilla est malesuada nec. Vivamus viverra nibh quis metus ultricies interdum. Praesent accumsan metus eu nunc iaculis fringilla. Nulla cursus massa vel elit fermentum faucibus. Aliquam interdum ac augue vitae vulputate. Sed ac felis a urna venenatis posuere. Quisque aliquam efficitur auctor.</p>
+<p>Aenean sed leo metus. In hac habitasse platea dictumst. Donec posuere in sapien eget laoreet. Aenean suscipit ex sed odio finibus ultricies. Phasellus finibus sem et ante convallis tempus. Vestibulum condimentum purus eget arcu dictum, at hendrerit metus ultricies. In hac habitasse platea dictumst. Nunc auctor dui et commodo rutrum. Aliquam erat volutpat. Ut sagittis in erat vitae mollis. Quisque pharetra, lorem vel venenatis consequat, lectus erat auctor eros, et venenatis diam ante id dui. Suspendisse potenti. Praesent dignissim velit nec quam rhoncus, in suscipit ipsum feugiat.</p>
+<p>Phasellus vitae dapibus diam. Nulla eleifend pretium condimentum. Cras vitae interdum urna. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum non lectus quis semper. Nunc non sapien id orci rutrum malesuada. Sed finibus odio sed justo fermentum, sed pellentesque lectus ornare. In tempus blandit nibh, rhoncus consequat tortor iaculis eget. Vestibulum mattis quam maximus, mattis metus non, finibus lacus. Mauris ut accumsan erat. Sed tempus est ut nunc placerat hendrerit. Nam dapibus ut nulla ut vehicula. Curabitur eu purus fermentum, iaculis libero ut, luctus ipsum. Nam sollicitudin mauris sed odio faucibus, et consequat turpis ultricies. Sed eget magna lorem.</p>
+<p>Etiam dolor neque, faucibus sed nibh at, sodales scelerisque lacus. Vestibulum finibus cursus dolor id sagittis. Nunc bibendum felis nisi, ac tristique dui accumsan vitae. Vestibulum pretium sed turpis eu viverra. Mauris lobortis nec mauris vel ultricies. Donec porta venenatis tortor vel eleifend. Morbi condimentum consequat augue eu placerat. Vivamus et ex ligula. Praesent sodales mi erat, id semper risus viverra a. Cras et scelerisque magna, tempus vulputate lectus. Quisque venenatis augue a massa molestie, et hendrerit nibh auctor.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+</feed>
