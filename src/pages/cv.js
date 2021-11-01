@@ -12,20 +12,9 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
       </Helmet>
 
-      <Layout heroContent={
-        <>
-          <p className="title">
-            Maryna Demchenko
-          </p>
-          <p className="subtitle">
-            Self-taught data analyst
-          </p>
-        </>
-      }>
-        <p>Welcome to my web-site.</p>
-        <p>I share my journey to become a data analyst.</p>
-        <p>More will come...</p>
-
+      <Layout heroContent={<h1 className="title">My CV</h1>}>
+        <p>Download PDF</p>
+        <p>View my profile on LinkedIn</p>
       </Layout>
     </div>
   )

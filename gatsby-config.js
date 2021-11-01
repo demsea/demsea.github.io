@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "my-website",
+    siteUrl: "https://demsea.github.io/",
+    title: "Maryna Demchenko",
   },
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -15,7 +16,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-transformer-remark",
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
@@ -24,6 +24,13 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog/`,
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
