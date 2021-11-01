@@ -32,6 +32,21 @@ module.exports = {
         path: `${__dirname}/blog/`,
       },
     },
+    "gatsby-remark-images",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              backgroundColor: "transparent",
+              maxWidth: 590,
+            },
+          },
+        ],
+      }
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
