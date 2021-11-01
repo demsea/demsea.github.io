@@ -20,7 +20,7 @@ export default function Layout({ children, heroContent }) {
         </div>
       </nav>
 
-      <section className="hero is-primary">
+      <section className="hero is-medium main-banner">
         <div className="hero-body">
           <div class="container is-max-desktop">
             {heroContent}

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet'
-import Layout from '../components/layout'
-import Section from '../components/section'
+import Layout from '../components/Layout'
+import Section from '../components/Section'
 
 export default function Home() {
   return (
