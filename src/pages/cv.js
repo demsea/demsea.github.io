@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
+import Section from '../components/section'
 
 export default function Home() {
   return (
@@ -11,8 +12,10 @@ export default function Home() {
       </Helmet>
 
       <Layout heroContent={<h1 className="title">My CV</h1>}>
-        <p>Download PDF</p>
-        <p>View my profile on LinkedIn</p>
+        <Section>
+          <p>Download PDF</p>
+          <p>View my profile on LinkedIn</p>
+        </Section>
       </Layout>
     </div>
   )

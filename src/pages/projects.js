@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Section from '../components/section'
 
 export default function Home() {
   return (
@@ -12,35 +13,37 @@ export default function Home() {
       </Helmet>
 
       <Layout heroContent={<h1 className="title">My projects</h1>}>
-        <div className="columns">
-          <div className="column">
-            <div className="card">
-              <div className="card-content">
-                <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br />
-                  <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        <Section>
+          <div className="columns">
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br />
+                    <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="column">
-            <div className="card">
-              <div className="card-content">
-                <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br />
-                  <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br />
+                    <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </Section>
       </Layout>
     </div>
   )

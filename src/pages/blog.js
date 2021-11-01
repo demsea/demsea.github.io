@@ -1,22 +1,19 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Section from '../components/Section'
+import Post from '../components/Post'
 
 const BlogPage = ({ data }) => {
   return (
     <Layout heroContent={<p className="title">My Blog Posts</p>}>
-      {
-        data.allMdx.nodes.map((node) => (
-          <article key={node.id}>
-            <h2>
-              <Link to={`/blog/${node.slug}`}>
-                {node.frontmatter.title}
-              </Link>
-            </h2>
-            <p>Posted: {node.frontmatter.date}</p>
-          </article>
-        ))
-      }
+      <Section>
+        {
+          data.allMdx.nodes.map((node) => (
+            <Post key={node.id} node={node} />
+          ))
+        }
+      </Section>
     </Layout>
   )
 }
@@ -29,6 +26,7 @@ export const query = graphql`
           date(formatString: "MMMM D, YYYY")
           title
         }
+        excerpt
         id
         slug
       }

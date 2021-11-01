@@ -1,8 +1,11 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Section from '../components/Section'
+import Post from '../components/Post'
 
-export default function Home() {
+export default function Home({ data }) {
   return (
     <div>
       <Helmet>
@@ -20,11 +23,38 @@ export default function Home() {
           </p>
         </>
       }>
-        <p>Welcome to my web-site.</p>
-        <p>I share my journey to become a data analyst.</p>
-        <p>More will come...</p>
+        <Section>
+          <h2 className="title">A few words about me...</h2>
+          <p>Welcome to my web-site!</p>
+          <p>Here I share my insights and learning from my jpurney of becoming a data analyst.</p>
+        </Section>
+
+        <Section>
+          <h2 className="title">Recent blog posts</h2>
+          {
+            data.allMdx.nodes.map((node) => (
+              <Post key={node.id} node={node} />
+            ))
+          }
+        </Section>
 
       </Layout>
     </div>
   )
 }
+
+export const query = graphql`
+  query {
+    allMdx(sort: {fields: frontmatter___date, order: DESC}, limit: 2) {
+      nodes {
+        frontmatter {
+          date(formatString: "MMMM D, YYYY")
+          title
+        }
+        id
+        excerpt
+        slug
+      }
+    }
+  }
+`
