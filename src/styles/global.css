@@ -1,5 +1,28 @@
 .main-banner {
-  background: url('../images/main_img.jpg');
+  background: url('../images/main_img_mobile.jpeg');
+  position: relative;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+}
+
+@media (min-width: 1024px) {
+  .main-banner {
+    background: url('../images/main_img.jpg');
+  }
+}
+
+.main-banner .title,
+.main-banner .subtitle {
+  color: white;
+}
+
+.main-banner-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
 }

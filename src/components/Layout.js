@@ -21,6 +21,7 @@ export default function Layout({ children, heroContent }) {
       </nav>
 
       <section className="hero is-medium main-banner">
+        <div className="main-banner-shade" />
         <div className="hero-body">
           <div class="container is-max-desktop">
             {heroContent}
