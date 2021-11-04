@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"July 25, 2021","title":"Yet Another Post"},"id":"ec2af8d1-ef7f-5d59-84d3-198a1860e11b","excerpt":"Wow look at all this content. How do they do it?","slug":"yet-another-post1"},{"frontmatter":{"date":"July 25, 2021","title":"Yet Another Post"},"id":"e285f9a7-bfc0-5750-8040-123fe37eb02d","excerpt":"Wow look at all this content. How do they do it?\n","slug":"yet-another-post"}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"October 2, 2021","title":"Yet Another Post"},"id":"e6457322-9ebb-53b9-8380-d7157517feea","excerpt":"Wow look at all this content. How do they do it?\n","slug":"yet-another-post02"},{"frontmatter":{"date":"October 1, 2021","title":"Yet Another Post"},"id":"ec2af8d1-ef7f-5d59-84d3-198a1860e11b","excerpt":"Wow look at all this content. How do they do it?\n","slug":"yet-another-post1"}]}},"pageContext":{}},
     "staticQueryHashes": []}
