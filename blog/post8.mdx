@@ -1,0 +1,43 @@
+---
+title: "Cleaning Dataset with Excel"
+date: "2021-08-20"
+---
+SQL is of course the sophisticated tool for data cleaning and analysis, but do not underestimate Excel. There are so many cases when the data is not huge and you can easily make your calculations in Excel. Just do it there.
+
+The most important Excel tools for the cleaning process are conditional formatting, remove duplicates, data validation, sorting, and filtering.
+
+The most important functions, in my opinion, are:
+
+-   **IF** - with it, you can make a logical comparison of value with what you expect, the function returns one value of 2, for example, true or false;
+
+-   **MIN** and **MAX** - return minimum and maximum value in a set of values;
+
+-   **COUNT** - counts the number of cells in a set of values with numbers;
+
+-   **COUNTA** - counts the number of cells in a set of values that are not empty, so it will count texts as well as numbers;
+
+-   **COUNTIF** - counts the number of cells in a set of values if the condition is true;
+
+-   **SUM** and **SUMIF/SUMIFS** - returns the sum of the values in the selected set of values. With SUMIF/S we can add conditions and it will sum up only values where the condition is true;
+
+-   **LEN** - counts the number of characters in the string, it may be valuable to check if the value matches prescribed patterns;
+
+-   **TRIM** - delete the unwanted spaces in the text, except 1 space between words;
+
+-   **TRUNC** - removes the fractional part of the number, if we don’t need long numbers for further analysis;
+
+-   **INT** - rounds the number down, to integer.
+Works almost like TRUNC, the difference is only with negative numbers (e.g. TRUNC(-3,4) = -3 and INT(-3,4) = -4);
+
+-   **LEFT, RIGHT**, and **MID** - returns characters from the text based on the number of specified characters and sides (left, right, or middle);
+
+-   **FIND** - returns the number of the starting position of a specified text string within another text string. It is very helpful to use it together with the LEFT/RIGHT/MID function. So you can simultaneously find the needed string within another string and retrieve the part of it;
+
+-   **VALUE** - makes number from string.
+E.g. when you have the value "$ 1000" and Excel thinks it’s a string, you can’t make any calculations with it. After using the VALUE function we will see instead "1000" and calculations are available as it is number now;
+
+-   **CONCAT** - joins several text strings into one;
+
+-   **DATE** - this function helps a lot when working with date values. It can compile the date from 3 different numbers, can make calculations with dates and it changes the text string into the date format;
+
+-   **ISTEXT** - to check if the value is text;

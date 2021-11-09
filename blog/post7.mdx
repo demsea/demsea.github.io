@@ -1,0 +1,56 @@
+---
+title: "Clean data is good data"
+date: "2021-08-15"
+---
+
+What should we do as soon as we get the data for analysis?
+
+We need to check it on 3 points:
+
+1. Data is relevant and can answer our question or solve the problem.
+
+2. Data is clean.
+
+3. Data is enough.
+
+
+And more detailed on each point.
+
+Of courses, data should be exactly the one that we need for planned analysis. Otherwise, we need other data.
+
+![arrow down](./imgs/green_arrow_down.png)
+
+Data should be clean and accurate. It's great if the data was collected directly by our company (1st party) or from a very reliable vendor (2nd/3rd party), but we still have to check it and if necessary refine it.
+
+**Checklist for data cleaning**
+
+-   Who was the creator of the data;
+-  How current it is, will we need to update it;
+-   Are there any metadata;
+-   Which information and data types do we have in the dataset;
+-   Privacy: if we have in the dataset some information, that should be de-identified;
+-   Sorting and filtering to:
+	-   find duplicates,
+	-   check for NULL values,
+	-   search for mistakes (e.g typo or data types that don’t match in the column)
+	-   values that don’t match prescribed patterns (e.g zip code, phone number),
+	-   check on data range for possible values (e.g. all values should be in a range 4-46),
+	-   get rid of extra spaces and characters,
+	-   make cross-field validation (e.g. sum of the values in column should be 100%)
+	-   change values to other types or formats (e.g. 21-Jan-2021 to 21.01.2021)
+	-   or even, delete the whole row, if mistakes can’t be corrected,
+	-   document all the changes to the dataset (e.g. Changelog).
+
+![arrow down](./imgs/green_arrow_down.png)
+
+If we do have enough data after our cleaning process and it is accurate, trustworthy, and comprehensive we continue to work with the data, but if it is not enough, we need to consider finding new sources or creating new processes to track additional information in our time frame;
+
+![arrow down](./imgs/green_arrow_down.png)
+
+If there is not enough time to fully gather the information and then analyze it, we have to discuss this with the stakeholders in order to change the timeframe or modify the business objective;
+
+![arrow down](./imgs/green_arrow_down.png)
+
+If both are impossible, consider identifying trends with available data or using proxy data
+
+> Using proxy data means we take data from another dataset. For example, we need to analyze traffic data in a small city in Netherland near Amsterdam, to find the peak commuting time, but unfortunately have no data and no way to get it in the nearest future. We can use data from another small city near Amsterdam to figure it out. And, of course, when data from our target city will be available, it is good to check it too.

@@ -1,0 +1,32 @@
+---
+title: "Changelog"
+date: "2021-09-10"
+---
+
+Documentation is not what everyone likes, but what almost everyone needs. Especially data analysts.
+
+Working with data implies responsibility for the state of that data, for its reliability, validity, and absence of bias. Data cleaning is a process where you can accidentally delete some of the important information.
+
+Keeping documentation, which will indicate all the steps of working with the data greatly simplifies life. You can always roll back changes, and other users can see exactly what work has been done with the data and what is its’ quality.
+
+>By the way, it is always a good idea to copy the data you gonna be working with into a new file. This way, you still have the file with original data and can return to it, in case you want to redo the changes.
+
+
+
+**Changelog** - is the document, where we gonna write about all the changes in our dataset. Usually, it includes information as such:
+
+-   Date of change
+-   Person, who made changes
+-   Person, who approved changes
+-   Data, file, component, or version that changed
+-   Description of what changed
+-   The reason why it was changed
+
+Basically, there are 2 ways to write a changelog:
+
+-   Create a text file and keep a record of changes;
+-   Auto-generate the changelog from commit messages through the console with a command:
+
+`$ git log`
+
+That way is very convenient, although is mostly used by developers, not data analysts.
