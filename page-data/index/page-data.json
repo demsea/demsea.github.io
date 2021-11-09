@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"October 2, 2021","title":"Yet Another Post"},"id":"e6457322-9ebb-53b9-8380-d7157517feea","excerpt":"Wow look at all this content. How do they do it?\n","slug":"yet-another-post02"},{"frontmatter":{"date":"October 1, 2021","title":"Yet Another Post"},"id":"ec2af8d1-ef7f-5d59-84d3-198a1860e11b","excerpt":"Wow look at all this content. How do they do it?\n","slug":"yet-another-post1"}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"September 10, 2021","title":"Changelog"},"id":"2a0370fa-295e-5b29-9712-077bfb644930","excerpt":"Documentation is not what everyone likes, but what almost everyone needs. Especially data analysts. Working with data implies responsibility…","slug":"post10"},{"frontmatter":{"date":"August 30, 2021","title":"Working with .csv files in Excel"},"id":"0cf30102-6ae0-54c8-8625-0c25eb74f43e","excerpt":"As I was learning, I've often encountered files with a .csv extension.\nThere is one quick and effective way to work with them more…","slug":"post9"}]}},"pageContext":{}},
     "staticQueryHashes": []}
