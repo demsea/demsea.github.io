@@ -1,0 +1,17 @@
+---
+title: "Visuals for data quality"
+date: "2021-09-20"
+---
+Let’s say, we have a dataset with a list of managers and the number of clients they manage. There are several ways to check the column with the number of clients, and I think the fastest is visualization. We know that the number, in any case, should not be less than zero, because this is the number of clients, they either are or are not. We make a line graph based on our table.
+
+![visuals for data quality](./imgs/manager_list_11post.png)
+
+The graph clearly shows an error with the number of customers of Mike Bailey. Of course, this is not the chart to show our stakeholders, but with its help, we can easily see an error in the data.  And then, we need to delete the temporary chart, fix the data, if possible, and continue checking our dataset.
+
+ This is a very simple and illustrative example. And of course, if our dataset is also so small in real life, we can see this error without the graph. But imagine that instead of 9 managers we have 90 or more on our list, then the method with data visualization will help us to check the data very quickly. Also, you can use a data validation tool, conditional formatting, or an IF function with a given condition, such as this:
+
+`=IF(C2>=0; TRUE; FALSE)`
+
+ Then our table will look like this, and you will also see where the data does not fulfill the requirements.
+
+![visuals for data quality 2](./imgs/manager_list_false_11post.png)
