@@ -14,9 +14,9 @@ Of course, an example is with my favourite bikeshare dataset.
 ```
 SELECT trip_id,
 
-duration_minutes,
+  duration_minutes,
 
-IF (duration_minutes > 30, "Long", "Short") AS duration
+  IF (duration_minutes > 30, "Long", "Short") AS duration
 
 FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
 
@@ -36,17 +36,17 @@ For example, let’s group our bikes according to the time they have been rented
 ```
 SELECT DISTINCT bikeid,
 
-COUNT(duration_minutes) AS trip_duration,
+  COUNT(duration_minutes) AS trip_duration,
 
-CASE
+  CASE
 
-WHEN COUNT(duration_minutes) <= 1000 THEN "low"
+    WHEN COUNT(duration_minutes) <= 1000 THEN "low"
 
-WHEN COUNT(duration_minutes) > 1000 AND COUNT(duration_minutes) < 2500 THEN "medium"
+    WHEN COUNT(duration_minutes) > 1000 AND COUNT(duration_minutes) < 2500 THEN "medium"
 
-ELSE "high"
+    ELSE "high"
 
-END AS popularity
+    END AS popularity
 
 FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
 
@@ -60,27 +60,27 @@ we grouped our bikes, but so far it didn’t give us any new information. Now we
 ```
 SELECT popularity,
 
-COUNT(bikeid) AS bikes_number
+  COUNT(bikeid) AS bikes_number
 
 FROM
 
-(SELECT DISTINCT bikeid,
+  (SELECT DISTINCT bikeid,
 
-COUNT(duration_minutes) AS trip_duration,
+  COUNT(duration_minutes) AS trip_duration,
 
-CASE
+  CASE
 
-WHEN COUNT(duration_minutes) <= 1000 THEN "low"
+    WHEN COUNT(duration_minutes) <= 1000 THEN "low"
 
-WHEN COUNT(duration_minutes) > 1000 AND COUNT(duration_minutes) < 2500 THEN "medium"
+    WHEN COUNT(duration_minutes) > 1000 AND COUNT(duration_minutes) < 2500 THEN "medium"
 
-ELSE "high"
+    ELSE "high"
 
-END AS popularity
+    END AS popularity
 
-FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
+    FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
 
-GROUP BY bikeid)
+    GROUP BY bikeid)
 
 GROUP BY popularity
 ```
