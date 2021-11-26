@@ -20,21 +20,13 @@ Let’s say we want to find the start station and the number of trips from there
 ![Bikeshre_trips query](./imgs/bikeshare_query.png)
 
 Also, sometimes subquery is used instead of a **JOIN** function, so with its help, we can get the data from both tables.
-
 From the performance point of view, a subquery is executed slower than JOIN.
-
 We are using the JOIN function to join 2 or more tables. There are different types of JOIN:
-
 An **INNER JOIN or JOIN** is a function that returns records with matching values in both tables.
-
 A **LEFT JOIN** is a function that will return all the records from the left table and only the matching records from the right table.
-
 **RIGHT JOIN** does the opposite. It will return all records from the right table and only the matching records from the left.
-
 **FULL OUTER JOIN** combines RIGHT and LEFT JOIN to return all records in both tables.
-
 There is also a **CROSS JOIN** (or cartesian), it returns all rows joined from both sides.
-
 For example, if we have 2 rows in table_1 and 10 rows in table_2. Executing CROSS JOIN on both tables will give us 1 table with 20 rows without any matching.
 
 

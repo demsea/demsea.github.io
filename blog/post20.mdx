@@ -13,15 +13,12 @@ IF(condition, value_if_true, value_if_false) AS new_column_name
 Of course, an example is with my favourite bikeshare dataset.
 ```
 SELECT trip_id,
-
   duration_minutes,
-
   IF (duration_minutes > 30, "Long", "Short") AS duration
-
 FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
-
 LIMIT 100
 ```
+
 The result was:
 
 ![If function result](./imgs/if_funct.png)
@@ -35,21 +32,13 @@ For example, let’s group our bikes according to the time they have been rented
 
 ```
 SELECT DISTINCT bikeid,
-
   COUNT(duration_minutes) AS trip_duration,
-
   CASE
-
     WHEN COUNT(duration_minutes) <= 1000 THEN "low"
-
     WHEN COUNT(duration_minutes) > 1000 AND COUNT(duration_minutes) < 2500 THEN "medium"
-
     ELSE "high"
-
     END AS popularity
-
 FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
-
 GROUP BY bikeid
 ```
 The result is as follow,
@@ -59,29 +48,17 @@ The result is as follow,
 we grouped our bikes, but so far it didn’t give us any new information. Now we need to count the number of bikes in each group, for this, we will use our previous query as a subquery.
 ```
 SELECT popularity,
-
   COUNT(bikeid) AS bikes_number
-
 FROM
-
   (SELECT DISTINCT bikeid,
-
   COUNT(duration_minutes) AS trip_duration,
-
   CASE
-
     WHEN COUNT(duration_minutes) <= 1000 THEN "low"
-
     WHEN COUNT(duration_minutes) > 1000 AND COUNT(duration_minutes) < 2500 THEN "medium"
-
     ELSE "high"
-
     END AS popularity
-
     FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
-
     GROUP BY bikeid)
-
 GROUP BY popularity
 ```
 And, finally, the result gives us the information we needed, so we definitely need to plan money in our budget for check-ups and maybe some repair work for at least 286 bikes.

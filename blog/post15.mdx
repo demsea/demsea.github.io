@@ -4,7 +4,7 @@ date: "2021-10-01"
 ---
   As soon as we are logged in, in the Navigation menu (upper left corner), under the BigQuery we need to choose SQL Workspace.  And that’s what we see then:
 
-    ![BigQuery_example1](./imgs/bigquery_1.png)
+![BigQuery_example1](./imgs/bigquery_1.png)
 
 We need to remember the consequences of actions, first of all, we create Project (**1**). After it, clicking on the “Add Data”(**2**)  will enable us to choose between public datasets or make a connection to other external databases, like MySQL, PostgreSQL, AWS, and so on. Then, by clicking on the "More options icon", next to the Project name (**3**), we will create a dataset. And only after the dataset is created, we click again on the "More options icon" next to its name and choose to create a table. That’s the moment when we can upload the data from an external file, Google Drive, or other storage.
 So Project is like a book cover that holds our datasets together, and each dataset holds our tables.
@@ -19,11 +19,8 @@ I tried to find the number of customers, who rent  a bike for longer than 30 min
   ```
 SELECT  COUNT(trip_id)  AS amount_of_users,
 		subscriber_type
-
 FROM  `bigquery-public-data.san_francisco_bikeshare.bikeshare_trips`
-
 WHERE duration_sec >  1800
-
 GROUP  BY subscriber_type;
 ```
 
