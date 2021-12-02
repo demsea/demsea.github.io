@@ -1,6 +1,6 @@
-import * as React from 'react';
+import React from 'react';
 
-export default ({ children }) => {
+const Section = ({ children }) => {
   return (
     <section className="section">
       <div class="container is-max-desktop">
@@ -9,3 +9,5 @@ export default ({ children }) => {
     </section>
   );
 }
+
+export default Section;

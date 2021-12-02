@@ -1,6 +1,6 @@
-import * as React from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Section from '../components/Section'
 import Post from '../components/Post'
@@ -26,7 +26,7 @@ export default function Home({ data }) {
         <Section>
           <h2 className="title">A few words about me...</h2>
           <p>Welcome to my web-site!</p>
-          <p>Here I share my insights and learning from my jpurney of becoming a data analyst.</p>
+          <p>Here I share my insights and learning from my journey of becoming a data analyst.</p>
         </Section>
 
         <Section>

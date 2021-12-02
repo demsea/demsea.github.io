@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 import { Link } from 'gatsby'
 
-export default ({ node }) => {
+const Post = ({ node }) => {
   return (
     <article className="box">
       <h3 className="title is-4">
@@ -14,3 +14,5 @@ export default ({ node }) => {
     </article>
   );
 }
+
+export default Post;

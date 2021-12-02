@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
-import { StaticImage } from 'gatsby-plugin-image'
 import Section from '../components/Section'
 
 export default function Home() {

@@ -1,18 +1,31 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://demsea.github.io/",
     title: "Maryna Demchenko",
   },
   plugins: [
+    {
+    resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.TAGMANAGER_ID,
+
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "GA_ID",
-      },
-    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-transformer-remark",

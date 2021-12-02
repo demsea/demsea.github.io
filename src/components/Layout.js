@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet';
 
@@ -37,11 +37,9 @@ export default function Layout({ children, heroContent }) {
             <strong>Maryna Demchenko&apos;s</strong> website. I use this website
             to share my experience of becoming a data analyst.
           </p>
+          <p>Copyright &copy; 2021</p>
           <p>
-            The website content is licensed <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-          </p>
-          <p>
-            This website is buils using <a target="_blank" href="https://www.gatsbyjs.com/">GatsbyJS</a> and <a target="_blank" href="https://bulma.io/">Bulma</a>
+            This website is built with <a target="_blank" href="https://www.gatsbyjs.com/">GatsbyJS</a> and <a target="_blank" href="https://bulma.io/">Bulma</a>
           </p>
         </div>
       </footer>
