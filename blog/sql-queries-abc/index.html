@@ -5,13 +5,7 @@ WHERE col_name2 &gt; y;
 GROUP BY col_name
 or
 ORDER BY col_name;</p><p>There are <strong>aggregate functions</strong> - the functions that perform calculations on a set of values and return a single value.
-Examples are:
-AVG
-COUNT
-SUM
-MIN
-MAX
-If we add DISTINCT, it will use only values, that aren’t repeated:
+Examples are:</p><ul><li>AVG,</li><li>COUNT,</li><li>SUM,</li><li>MIN,</li><li>MAX;</li></ul><p>If we add DISTINCT, it will use only values, that aren’t repeated:
 SELECT COUNT(DISTINCT user_id)</p><p>If we want to use aggregate functions, we need to be careful, as we cannot use them with WHERE condition. For aggregated functions, we need to use GROUP BY + HAVING. For example:</p><pre><code>SELECT bikeid,
 COUNT(trip_id)  AS trips,
 FROM  `bigquery-public-data.austin_bikeshare.bikeshare_trips`
