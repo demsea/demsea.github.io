@@ -12,7 +12,7 @@ I wanted to make an experiment with Tableau, and as I recently found a very inte
 So, first of all, I will make my public account on the Tableau platform, then in my account, I need to choose “ create a viz”. After it, we need to download the data source for our future project. It can be a file with our dataset or connectors like Google Drive or OData. Finally, when our data is downloaded we see their interface like this.
 
 
-![Tableau- creating visuals](./imgs/tableau_1.png)
+![Tableau_creating_visuals](./imgs/tableau_1.png)
 
 
 The logic behind it, that you make worksheets with different visuals, and then you can join them all together in one dashboard or story.
@@ -31,7 +31,7 @@ So, for our dataset, we gonna drop the field Country to the card “Detail” an
 Then we gonna drop fields: age, year, and sex to the card “Filter”. Clicking on each field will open the filter window, where we can choose the range of values we need. For the age, we choose 18, for the year: 2019 and for the sex, we click open menu and chose “show filter”. In that way, we filter out the data we don’t need, and sex we can always change in the filter on our right.
 
 
-![Tableau_using filters](./imgs/tableau_2.png)
+![Tableau_using_filters](./imgs/tableau_2.png)
 
 
 After it, we need some data to show on the map. For this, we drag and drop the field “Mean height” to the card Color. It will color our map in different colors, but be careful. In that way, it automatically shows not Mean height, but SUM(Mean height). To change it, click on the field, and in the drop-down menu choose Dimension instead of Measure.
@@ -39,7 +39,7 @@ After it, we need some data to show on the map. For this, we drag and drop the f
 Then click on Color card -> Edit colors. We want to make our colors more contrasted, so we choose the palette, in my case it’s Green-Gold, then check Stepped color, 6 steps. And Ok.
 
 
-![Tableau_using colors](./imgs/tableau_3.png)
+![Tableau_using_colors](./imgs/tableau_3.png)
 
 
 In the end, we change the name of the worksheet and here it is, our simple but pretty nice interactive visual, that shows the mean height for 18 years old people, according to country and sex.
