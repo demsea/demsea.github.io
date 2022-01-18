@@ -44,11 +44,9 @@ export default function Home() {
               <div className="card">
                 <div className="card-content">
                   <div className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    The <strong>Market Basket Analysis</strong>, that shows some insights of sales in the bakery. The dataset belongs to "The Bread Basket", a bakery located in Edinburgh.
+                    <a target="_blanc" href="https://public.tableau.com/app/profile/maryna6306/viz/SalesintheBakery/Story#1"> Link to Tableau Public</a>
                     <br />
-                    <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                   </div>
                 </div>
               </div>
