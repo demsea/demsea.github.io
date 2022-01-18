@@ -13,8 +13,8 @@ export default function Home() {
 
       <Layout heroContent={<h1 className="title">My CV</h1>}>
         <Section>
-          <p>Download PDF</p>
-          <p>View my profile on LinkedIn</p>
+          <p><a target="_blanc" href="/MarynaDemchenkoCV.pdf">Download my CV as PDF</a></p>
+          <p><a target="_blanc" href="https://www.linkedin.com/in/marynademchenko/">View my profile on LinkedIn</a></p>
         </Section>
       </Layout>
     </div>

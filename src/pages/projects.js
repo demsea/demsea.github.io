@@ -18,6 +18,32 @@ export default function Home() {
               <div className="card">
                 <div className="card-content">
                   <div className="content">
+                    My project about <strong>AI professionals</strong>, where they get their bachelor's degree and where they go to put their knowledge into practice.
+                    <a target="_blanc" href="https://public.tableau.com/app/profile/maryna6306/viz/AI_professionals_around_the_world/AI_work_and_study"> Link to Tableau Public</a>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
+                    The visualization on the <strong>average height of the population of the Earth</strong>, whether the proximity of equators affects the height of the people and where the tallest people live.
+                    <a target="_blanc" href="https://public.tableau.com/app/profile/maryna6306/viz/Thehighestnations/Thehighestnations"> Link to Tableau Public</a>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="columns">
+            <div className="column">
+              <div className="card">
+                <div className="card-content">
+                  <div className="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                     <a href="#">#css</a> <a href="#">#responsive</a>
