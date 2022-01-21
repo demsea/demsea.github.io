@@ -56,11 +56,9 @@ export default function Home() {
               <div className="card">
                 <div className="card-content">
                   <div className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    Dashboards that show the amount of <strong>content on the Netflix platform</strong> classified by category and identify content production leaders for the platform.
+                    <a target="_blanc" href="https://public.tableau.com/app/profile/maryna6306/viz/ContentonNetflix/Dashboard1#1"> Link to Tableau Public</a>
                     <br />
-                    <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                   </div>
                 </div>
               </div>
