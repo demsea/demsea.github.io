@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"January 16, 2025","title":"Building a Hangman Game with Python (Step-by-Step)"},"id":"f8682aed-8d58-5451-8cd6-1f10e7b7eb11","excerpt":"Have you ever played Hangman? It's a fun guessing game that's easy to play and even easier to code. In this post, I'll walk you through…","slug":"hangman-game"},{"frontmatter":{"date":"May 24, 2023","title":"Python project with my own Netflix data"},"id":"eccd447a-cdad-5b41-b33d-fc66559d873b","excerpt":"After gaining proficiency in Python through learning and practice, I decided to embark on my own project using my personal data. Lately, it…","slug":"netflix-project"}]}},"pageContext":{}},
-    "staticQueryHashes": []}
